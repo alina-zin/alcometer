@@ -69,8 +69,8 @@ function App() {
         </div>
         <div>
           <label>Gender</label>
-          <input type="radio" name="gender" value="male" defaultChecked onChange = {e => setGender(e.target.value)} /><label>Male</label>
-          <input type="radio" name="gender" value="female" onChange = {e => setGender(e.target.value)} /><label>Female</label>
+          <label><input type="radio" name="gender" value="male" defaultChecked onChange = {e => setGender(e.target.value)}/>Male</label>
+          <label><input type="radio" name="gender" value="female" onChange = {e => setGender(e.target.value)}/>Female</label>
         </div>
         <div>
           <output>{alcoLevel.toFixed(1)}</output>
